@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Scanner de code-barres pour l'activité de fin de déploiement -->
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/end_deployment_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:background="#e0e0e0"/>
+
+    <!-- TextView pour afficher les données scannées -->
+    <TextView
+        android:id="@+id/text_scanned_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucune donnée scannée pour le moment"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Bouton pour confirmer la fin du déploiement -->
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmer"
+        android:enabled="false"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+</LinearLayout>

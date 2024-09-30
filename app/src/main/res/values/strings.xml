@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="salutation">bienvenue !</string>
+    <string name="renvoie">
+        En revoyant la bashe vous jugez qu\'elle n\'est pas en etat de vous servir.
+        veillez confirmez votre choix !
+    </string>
+    <string name="deploiement">appyez sur le boutton ci-dessous pour pour confirmer le deploiement</string>
+</resources>
